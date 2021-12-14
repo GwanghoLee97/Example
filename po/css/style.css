@@ -1,0 +1,157 @@
+body {
+  margin: 0px;
+  height: 100vh;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  align-items: center;
+}
+.background-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url('https://assets.nflxext.com/ffe/siteui/vlv3/23c72870-12c8-4682-9f55-337a083ccfa7/d0a8370d-7241-4fc7-8231-cd5cdaacb5e3/KR-ko-20211129-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+
+  height: auto;
+  padding-bottom: 1.5em;
+  border-bottom: 15px solid #303030;
+}
+.net-logo > img {
+  width: 160px;
+  height: auto;
+}
+
+.net-a {
+  display: flex;
+}
+.net-lang {
+  margin-right: 1em;
+  width: 100px;
+}
+.net-lang > select {
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.net-lang > select > option {
+  background-color: #303030;
+}
+.net-login {
+  width: 65px;
+}
+.net-login > button {
+  border: 0px;
+  outline: 0px;
+  border-radius: 5px;
+  padding: 0.5em;
+  width: 100%;
+  background: red;
+  color: white;
+  font-weight: 900;
+}
+.content {
+  color: white;
+  text-align: center;
+}
+.form-a {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: center;
+}
+.email {
+  width: 40%;
+  height: 50px;
+  border: 0px;
+}
+.btn-div {
+  width: 100px;
+}
+.but {
+  width: 100%;
+  background-color: red;
+  color: white;
+  height: 100%;
+  border: 0px;
+}
+.content2 {
+  background-color: #000;
+  color: #fff;
+  width: auto;
+  height: auto;
+  border-bottom: 15px solid #303030;
+  padding: 70px 45px;
+}
+.content2-media-a {
+  display: flex;
+  max-width: 1100px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.content2-media {
+  width: 100%;
+  height: auto;
+}
+.content2-img {
+  position: relative;
+}
+.content2-img > img {
+  width: 100%;
+  height: auto;
+  z-index: 2;
+  position: relative;
+}
+.content2-ani {
+  width: 100%;
+  height: 100%;
+  max-width: 73%;
+  max-height: 54%;
+  position: relative;
+  transform: translate(-50%, -145%);
+  top: 46%;
+  left: 50%;
+}
+.content2-ani-video {
+  width: 100%;
+  height: 100%;
+}
+.content-faq {
+  background-color: #000;
+  color: #fff;
+  width: auto;
+  height: auto;
+  border-bottom: 15px solid #303030;
+  padding: 70px 45px;
+  text-align: center;
+}
+.content-faqlist {
+  list-style: none;
+  margin: 2em auto;
+  width: 60%;
+}
+.content-faqlist > li {
+  margin: 0 0 8px 0;
+}
+.content-faqlist > li > button {
+  width: 100%;
+  height: auto;
+  text-align: left;
+  font-size: 25px;
+  padding: 3%;
+  background-color: #303030;
+  color: #fff;
+  border: 0px;
+}
+.content-faqlist1-faq {
+  background-color: #303030;
+  text-align: left;
+  padding: 3%;
+  font-size: 25px;
+  margin-top: 2px;
+}
